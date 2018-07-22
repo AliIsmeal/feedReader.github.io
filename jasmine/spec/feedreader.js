@@ -61,7 +61,7 @@ $(function() {
         * hiding/showing of the menu element.
         */
         it('should be hidden by default', function () {
-            var body = document.querySelector(".menu-hidden");
+            var body = $('body');
             expect(body.classList[0]).toContain("menu-hidden");
 
         });
